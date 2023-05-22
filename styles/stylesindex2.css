@@ -34,6 +34,9 @@
     padding: 10% 30%;
   }
 
+  .form-main-eventos{
+    padding: 10% 10% ;
+  }
   .navbar{
     position: relative;
     display: flex;
@@ -142,7 +145,7 @@
    h1{
     
     text-align: center;
-    padding: 2%;
+    padding: 5%;
     
   }
 
@@ -204,7 +207,7 @@ button{
   }
   .ubicacion h1{
    
-    margin: 2%;
+    padding: 3%;
 
   }
 
