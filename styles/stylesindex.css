@@ -407,7 +407,7 @@ text-decoration: none;
 
 
   /*Responsive Media Queries*/
-/*
+
   @media (max-width:1024px) {
 
     .contenido{
@@ -440,7 +440,40 @@ text-decoration: none;
    .main-ubicacion{
 min-height: 90vh;
    }
-    }
+   .logo {
+    cursor: pointer;
+    width: 22%;
+  }
+  .nav__links li {
+    display: flex; 
+    padding: 0px 2px;
+  }
+  li, a, button {
+    font-weight: 700;
+    font-size: 9px;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    color: #696969;
+  }
+  .mensaje-bienvenido {
+  
+    padding: 192px 4%;
+}
+.carousel-inner {
+  height: 188px;
+  object-fit: cover;
+  
+}
+.main-mensaje {
+  font-size: 48px;
+
+}
+
+
+
+}
+
+    
 
 
 

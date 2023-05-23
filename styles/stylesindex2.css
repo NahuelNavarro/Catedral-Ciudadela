@@ -25,18 +25,16 @@
 
   main{
    
-    padding: 10% 0%;
+    padding: 8% 0%;
   }
 
   
   .form-main{
    
-    padding: 10% 30%;
+    padding: 10.5% 25%;
   }
 
-  .form-main-eventos{
-    padding: 10% 10% ;
-  }
+ 
   .navbar{
     position: relative;
     display: flex;
@@ -61,27 +59,6 @@
     box-sizing: border-box; 
     
   }
-
-  
-  
-  .main-mensaje{
-    font-size: 100px;
-    color: #fff;
-    text-align: center;
-    padding: 10%;
-    font-family:Arial, Helvetica, sans-serif;
-  }
-
-  
-  .main-mensaje{
-    font-size: 100px;
-    color: #fff;
-    text-align: center;
-    padding: 10%;
-    font-family:Arial, Helvetica, sans-serif;
-  }
-
-
 
   .img-main img{
     height: 100%;
@@ -146,7 +123,8 @@
     
     text-align: center;
     padding: 5%;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
   }
 
   .h2-eventos{
@@ -201,14 +179,7 @@ button{
     justify-content: center;
     align-items: center;
     gap: 5px;
-    margin: 0% 10%;
-    
-
-  }
-  .ubicacion h1{
-   
-    padding: 3%;
-
+ 
   }
 
   .mapa-ubicacion{
@@ -396,12 +367,21 @@ text-decoration: none;
   /*Responsive Media Queries*/
 
   @media (max-width:1024px) {
+    .logo {
+      cursor: pointer;
+      width: 22%;
+  }
 
     .contenido{
      background-color: rgb(240, 203, 83);
       
     }
-    
+    main {
+      padding: 30% 0%;
+  }
+  .form-main {
+    padding: 32.5% 7%;
+}
   }
 
   @media (max-width:768px) {
@@ -410,10 +390,21 @@ text-decoration: none;
      background-color: aqua;
       
     }
+    main {
+      padding: 30% 0%;
+  }
+  .logo {
+    cursor: pointer;
+    width: 22%;
+}
     
   }
   
   @media (max-width:480px) {
+    .logo {
+      cursor: pointer;
+      width: 22%;
+  }
 
     .contenido{
      background-color: rgb(231, 74, 160);
@@ -429,7 +420,44 @@ min-height: 83vh;
    }
 
 
+   .footer-links a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 13px
+  }
+  
+  .footer-links ul{
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  text-decoration: none;
+  }
 
+  main {
+    padding: 30% 10%;
+}
+.form-main {
+  padding: 30.5% 10%;
+}
+.eventos_img img {
+  width: 343px;
+  
+}
+.logo {
+  cursor: pointer;
+  width: 22%;
+}
+.nav__links li {
+  display: flex; 
+  padding: 0px 2px;
+}
+li, a, button {
+  font-weight: 700;
+  font-size: 9px;
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  color: #696969;
+}
 
     }
 
