@@ -46,6 +46,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100000000000000;
    
   }
  
@@ -290,8 +291,8 @@ text-decoration: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  gap: 5px;
-  padding:0% 15%;
+  gap: 30px;
+  padding:5% 7%;
   grid-template-areas:
   "area1 area2 area3"
   "area4 area5 area6"
@@ -304,9 +305,8 @@ text-decoration: none;
 
 .caja{
   width: 100%;
-  height: 300px;
-  
-  color: #eeee;
+  height: 320px;
+  color: #000000ee;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -327,10 +327,10 @@ text-decoration: none;
   justify-items: center;
   align-items: center;
   align-content: space-between;
-  background-color: #24252A;
+  background-color: #F1F6F9;
   box-shadow: 5px 5px 7px 0px #848484ee;
   border-radius: 15px;
-  border: 3px solid #616a74;
+  border: 1px solid #a0a4a8;
   
   
 }
@@ -338,7 +338,7 @@ text-decoration: none;
 .c1 img{
   grid-area: img;
   height: 205px;
-  width:65%;
+  width:90%;
   object-fit:contain;
  border-top-right-radius:  12px;
  border-top-left-radius:  12px;
@@ -469,13 +469,12 @@ li, a, button {
  height: 600px;
 }
 .eventos_img img {
-  width: 260px;
+  width: 330px;
 }
 
 
-    }
 
-
+  }
 
   
 
