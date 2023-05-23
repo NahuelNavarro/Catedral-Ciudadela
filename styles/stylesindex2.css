@@ -459,6 +459,20 @@ li, a, button {
   color: #696969;
 }
 
+.footer-links ul {
+  display: block;
+  justify-content: center;
+  gap: 3%;
+ 
+}
+.carousel-item {
+ height: 600px;
+}
+.eventos_img img {
+  width: 260px;
+}
+
+
     }
 
 

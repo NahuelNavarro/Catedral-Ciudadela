@@ -460,12 +460,24 @@ min-height: 90vh;
     padding: 192px 4%;
 }
 .carousel-inner {
-  height: 188px;
+  height: 135px;
   object-fit: cover;
   
 }
 .main-mensaje {
-  font-size: 48px;
+  font-size: 38px;
+
+}
+
+.footer-links ul {
+  display: block;
+  justify-content: center;
+  gap: 3%;
+ 
+}
+.somos {
+  font-weight: 100;
+  font-size: 15px;
 
 }
 
