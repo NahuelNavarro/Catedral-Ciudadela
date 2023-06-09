@@ -1,0 +1,18 @@
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .mapa-ubicacion {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ubicacion p {
+   padding: 2% 32%;
+  }

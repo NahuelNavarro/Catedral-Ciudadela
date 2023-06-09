@@ -1,0 +1,158 @@
+@media (max-width: 1024px) {
+    .logo {
+      cursor: pointer;
+      width: 22%;
+    }
+    .contenido {
+      background-color: rgb(240, 203, 83);
+    }
+    main {
+      padding: 30% 0%;
+    }
+    .form-main {
+      padding: 32.5% 7%;
+    }
+  }
+  @media (max-width: 768px) {
+    .contenido {
+      background-color: aqua;
+    }
+    main {
+      padding: 30% 0%;
+    }
+    .logo {
+      cursor: pointer;
+      width: 22%;
+    }
+
+    .container{
+      flex-direction: column;
+    }
+  
+    .img-section, .content-section{
+      flex: 100%;
+      margin: auto;
+      text-align: center;
+      padding: 0px;
+    }
+  
+    .img-section img{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    
+  }
+  @media (max-width: 480px) {
+    
+   
+    .ubicacion {
+      gap: 26px;
+    }
+    .main-ubicacion {
+      min-height: 83vh;
+    }
+    .footer-links a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .footer-links ul {
+      display: flex;
+      justify-content: center;
+      gap: 2%;
+      text-decoration: none;
+    }
+    main {
+      padding: 30% 0%;
+    }
+    .form-main {
+      padding: 30.5% 10%;
+    }
+    .eventos_img img {
+      width: 286px;
+    }
+    .logo {
+      cursor: pointer;
+      width: 50%;
+    }
+    .nav__links  {
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(228, 228, 228, 0.74);
+      width: 100%;
+      position: absolute;
+      backdrop-filter: blur(7px);
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+     
+    
+    .nav__links li {
+      display: flex;
+      padding: 0px 2px;
+    }
+   
+    
+    .menu-hb{
+      width:50px;
+      display:flex;
+    }
+    .footer-links ul {
+      display: block;
+      justify-content: center;
+      gap: 3%;
+    }
+   
+    .main-mensaje {
+      font-size: 38px;
+     
+  }
+  .somos {
+  
+    font-size: 13px;
+    
+}
+.somos1 {
+  
+  font-size: 14px;
+  
+}
+.mensaje-bienvenido {
+  padding-top: 306px;
+  }
+
+  .galeria_img img {
+    width: 338px;
+    border-radius: 10px;
+}
+
+.container{
+ width:  100%;
+}
+.content-section h2 {
+  font-size: 33px;
+ 
+}
+
+main {
+    padding: 10% 0%;
+}
+
+.about-us {
+    padding: 21px;
+}
+.mapa-ubicacion {
+  width: 80%;
+  height:80%;
+}
+.ubicacion {
+
+  padding: 33% 10%;
+}
+.ubicacion p {
+  padding: 2% 5%;
+}
+}
