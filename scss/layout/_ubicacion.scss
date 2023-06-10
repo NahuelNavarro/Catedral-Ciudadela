@@ -4,15 +4,19 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+    
+      p {
+      padding: 2% 32%;
+     }
+   
+    .mapa-ubicacion {
+      width: 100%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
   }
   
-  .mapa-ubicacion {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
+
   
-  .ubicacion p {
-   padding: 2% 32%;
-  }
+ 

@@ -4,7 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: open-sans-extrabold;
+  font-family: "Comfortaa", cursive;
+}
+
+body h1 {
+  text-align: center;
+  padding: 5%;
+  font-size: 30px;
+}
+body li, body a, body button {
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Comfortaa", cursive;
+  color: #191919;
 }
 
 main {
@@ -42,6 +55,11 @@ main {
   display: flex;
   justify-content: center;
   padding-bottom: 68px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding-top: 70;
 }
 
 .footer-links a {
@@ -120,13 +138,10 @@ main {
   width: 100%;
   z-index: 100000000000000;
 }
-
-@font-face {
-  font-family: "Blacksharp";
-  src: url("/font/BlackSharp.ttf");
-  font-style: normal;
-  font-weight: 100;
+.navbar .logo {
+  width: 55px;
 }
+
 .header-index {
   display: 1;
   justify-content: space-between;
@@ -147,11 +162,6 @@ main {
   height: 511px;
 }
 
-.logo {
-  cursor: pointer;
-  width: 5%;
-}
-
 .nav__links {
   list-style: none;
 }
@@ -167,29 +177,6 @@ main {
   transition: 0.8s;
 }
 
-.nav__links li a:hover {
-  color: #000000;
-}
-
-.menu-hb {
-  width: 100px;
-  display: none;
-}
-
-body h1 {
-  text-align: center;
-  padding: 5%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 30px;
-}
-body li, body a, body button {
-  font-weight: 700;
-  font-size: 15px;
-  text-decoration: none;
-  font-family: "Comfortaa", cursive;
-  color: #250202;
-}
-
 .mensaje-bienvenido {
   padding-top: 110px;
   padding: 165px 15%;
@@ -202,8 +189,7 @@ body li, body a, body button {
   background-size: cover;
   box-sizing: border-box;
 }
-
-.somos {
+.mensaje-bienvenido .somos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -214,8 +200,7 @@ body li, body a, body button {
   margin-top: 0;
   margin-bottom: 0rem;
 }
-
-.somos1 {
+.mensaje-bienvenido .somos1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,16 +215,12 @@ body li, body a, body button {
 
 .main-mensaje {
   font-size: 100px;
-  color: #F1F6F9;
+  color: #f1f1f1;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0rem;
   font-family: Arial, Helvetica, sans-serif;
   overflow-wrap: break-word;
-}
-
-.logo {
-  width: 55px;
 }
 
 @font-face {
@@ -248,7 +229,7 @@ body li, body a, body button {
   font-style: normal;
 }
 .hero {
-  background-color: #f8f8f8;
+  background-color: #f1f1f1;
   overflow: hidden;
 }
 
@@ -288,43 +269,27 @@ body li, body a, body button {
   justify-content: center;
   align-items: center;
 }
-
-.img-section {
+.container .img-section {
   flex: 1;
   text-align: center;
 }
-
-.img-section img {
+.container .img-section img {
   max-width: 70%;
   height: auto;
   border-radius: 0%;
 }
-
-.content-section {
+.container .content-section {
   flex: 1;
   margin-left: 40px;
 }
-
-.content-section h2 {
+.container .content-section h2 {
   font-size: 50px;
   margin-bottom: 20px;
   font-family: Seagram;
 }
-
-.content-section p {
+.container .content-section p {
   font-size: 18px;
   line-height: 1.6;
-}
-
-.content-section .btn {
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 17px;
-  background-color: #25d88d;
-  color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
-  margin-top: 15px;
 }
 
 .contenido {
@@ -388,7 +353,7 @@ body li, body a, body button {
   justify-items: center;
   align-items: center;
   align-content: space-between;
-  background-color: #F1F6F9;
+  background-color: #191919;
   border-radius: 15px;
   border: 1px solid #a0a4a8;
 }
@@ -443,16 +408,14 @@ body li, body a, body button {
   align-items: center;
   gap: 5px;
 }
-
-.mapa-ubicacion {
+.ubicacion p {
+  padding: 2% 32%;
+}
+.ubicacion .mapa-ubicacion {
   width: 100%;
   justify-content: center;
   display: flex;
   align-items: center;
-}
-
-.ubicacion p {
-  padding: 2% 32%;
 }
 
 .eventos_img {
@@ -475,17 +438,11 @@ body li, body a, body button {
     cursor: pointer;
     width: 22%;
   }
-  .contenido {
-    background-color: rgb(240, 203, 83);
-  }
   .form-main {
     padding: 32.5% 7%;
   }
 }
 @media (max-width: 768px) {
-  .contenido {
-    background-color: aqua;
-  }
   .logo {
     cursor: pointer;
     width: 22%;
@@ -505,6 +462,9 @@ body li, body a, body button {
   }
 }
 @media (max-width: 480px) {
+  .form-main {
+    padding: 35.5% 10%;
+  }
   .ubicacion {
     gap: 26px;
   }
@@ -521,9 +481,6 @@ body li, body a, body button {
     justify-content: center;
     gap: 2%;
     text-decoration: none;
-  }
-  .form-main {
-    padding: 40.5% 10%;
   }
   .eventos_img img {
     width: 286px;

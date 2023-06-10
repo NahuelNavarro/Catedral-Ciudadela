@@ -1,23 +1,16 @@
-
-
-  
-
-  .eventos_img {
+ .eventos_img {
     display: flex;
     flex-wrap: wrap;
     margin: 0px 10%;
     padding-top: 30px;
     justify-content: center;
     gap: 10px;  
-    
-   
   }
 
   .card img{
     width: 100%;
     height: 300px;
     background-size: cover;
-   
   }
 
 

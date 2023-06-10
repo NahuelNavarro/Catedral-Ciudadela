@@ -4,19 +4,17 @@
     justify-content: center;
     align-items: center;
   }
-  
-  
   .h2-eventos {
     text-align: center;
   }
   
-.btn-box {
+.btn-box{
   padding: 30px;
   display: flex;
   justify-content: center;
 }
 
-.btn-sm {
+.btn-sm{
   padding: 4px 20px;
   font-size: 16px;
   background-color:rgb(44, 44, 44) ;
@@ -24,7 +22,6 @@
 }
 
 .btn:hover {
- 
   background-color: #0f1114;
   border-color:#0f1114;
 }

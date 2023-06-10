@@ -4,11 +4,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: open-sans-extrabold;
+  font-family: $font;
 }
 
-
-
+body{
+  h1 {
+      text-align: center;
+      padding: 5%;
+      font-size: 30px;
+      
+      }
+      li, a, button {
+          font-weight: 700;
+          font-size: 15px;
+          text-decoration: none;
+          font-family: $font;
+          color: $secondary-color;
+          
+        }      
+  }
 
 main {
     padding: 5% 0% 0% 0%;

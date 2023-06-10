@@ -3,18 +3,12 @@
       cursor: pointer;
       width: 22%;
     }
-    .contenido {
-      background-color: rgb(240, 203, 83);
-    }
    
     .form-main {
       padding: 32.5% 7%;
     }
   }
   @media (max-width: 768px) {
-    .contenido {
-      background-color: aqua;
-    }
    
     .logo {
       cursor: pointer;
@@ -40,7 +34,10 @@
   }
   @media (max-width: 480px) {
     
-   
+    
+    .form-main {
+        padding: 35.5% 10%;
+    }
     .ubicacion {
       gap: 26px;
     }
@@ -57,9 +54,6 @@
       justify-content: center;
       gap: 2%;
       text-decoration: none;
-    }
-    .form-main {
-      padding: 40.5% 10%;
     }
     .eventos_img img {
       width: 286px;
@@ -117,7 +111,7 @@
   padding-top: 306px;
   }
 
-  .galeria_img img {
+.galeria_img img {
     width: 338px;
     border-radius: 10px;
 }
@@ -127,9 +121,7 @@
 }
 .content-section h2 {
   font-size: 33px;
- 
 }
-
 .about-us {
     padding: 21px;
 }
@@ -147,4 +139,5 @@
 .box-content{
   padding-top: 124px;
 }
+
 }
