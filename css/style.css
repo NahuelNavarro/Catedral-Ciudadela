@@ -356,6 +356,10 @@ body li, body a, body button {
   border-color: #0f1114;
 }
 
+.form-main {
+  padding: 7.7% 25%;
+}
+
 .grilla {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -474,9 +478,6 @@ body li, body a, body button {
   .contenido {
     background-color: rgb(240, 203, 83);
   }
-  main {
-    padding: 30% 0%;
-  }
   .form-main {
     padding: 32.5% 7%;
   }
@@ -484,9 +485,6 @@ body li, body a, body button {
 @media (max-width: 768px) {
   .contenido {
     background-color: aqua;
-  }
-  main {
-    padding: 30% 0%;
   }
   .logo {
     cursor: pointer;
@@ -524,11 +522,8 @@ body li, body a, body button {
     gap: 2%;
     text-decoration: none;
   }
-  main {
-    padding: 30% 0%;
-  }
   .form-main {
-    padding: 30.5% 10%;
+    padding: 40.5% 10%;
   }
   .eventos_img img {
     width: 286px;
@@ -585,9 +580,6 @@ body li, body a, body button {
   .content-section h2 {
     font-size: 33px;
   }
-  main {
-    padding: 10% 0%;
-  }
   .about-us {
     padding: 21px;
   }
@@ -600,6 +592,9 @@ body li, body a, body button {
   }
   .ubicacion p {
     padding: 2% 5%;
+  }
+  .box-content {
+    padding-top: 124px;
   }
 }
 
