@@ -52,38 +52,8 @@
   font-style: normal;
 }
 
-.hero{
-  background-color: $main-color;
-  overflow: hidden;
-}
 
 
-
-.container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  margin: 20px auto;
-}
-
-.hero-content{
-  flex: 1;
-  width: 600px;
-  margin: 0px 25px;
-}
-
-.hero-img{
-  flex: 1;
-  width: 600px;
-  margin: auto;
-}
-
-.hero-img img{
-  width:600px;
-  height: auto;
-  border-radius: 10px;
-}
 
 .about-us{
   padding: 50px 117px;
@@ -119,7 +89,6 @@
     h1{
       font-size: 50px;
       margin-bottom: 0px;
-     
       font-family: Seagram;
      }
      p{
