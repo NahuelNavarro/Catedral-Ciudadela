@@ -274,12 +274,12 @@ footer {
   text-align: center;
 }
 .container .img-section img {
-  max-width: 75%;
+  max-width: 85%;
   height: auto;
-  border-radius: 0%;
+  border-radius: 100%;
 }
 .container .img-cautivos {
-  width: 50%;
+  width: 65%;
   height: auto;
   border-radius: 0%;
 }
