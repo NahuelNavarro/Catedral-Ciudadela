@@ -238,7 +238,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 90%;
-  margin: 65px auto;
+  margin: 20px auto;
 }
 
 .hero-content {
@@ -260,7 +260,7 @@ footer {
 }
 
 .about-us {
-  padding: 100px;
+  padding: 50px 117px;
 }
 
 .container {
@@ -274,7 +274,12 @@ footer {
   text-align: center;
 }
 .container .img-section img {
-  max-width: 70%;
+  max-width: 75%;
+  height: auto;
+  border-radius: 0%;
+}
+.container .img-cautivos {
+  width: 50%;
   height: auto;
   border-radius: 0%;
 }
@@ -282,14 +287,20 @@ footer {
   flex: 1;
   margin-left: 40px;
 }
-.container .content-section h2 {
+.container .content-section h1 {
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-family: Seagram;
 }
 .container .content-section p {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.6;
+  text-align: center;
+}
+
+.container .content-section {
+  flex: 1;
+  margin-left: 0px;
 }
 
 .contenido {
@@ -458,7 +469,8 @@ footer {
   }
   .img-section img {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 17px;
+    margin-top: 22px;
   }
 }
 @media (max-width: 480px) {
@@ -516,7 +528,7 @@ footer {
     gap: 3%;
   }
   .main-mensaje {
-    font-size: 38px;
+    font-size: 52px;
   }
   .somos {
     font-size: 13px;
@@ -525,7 +537,7 @@ footer {
     font-size: 14px;
   }
   .mensaje-bienvenido {
-    padding-top: 306px;
+    padding: 217px 6px;
   }
   .galeria_img img {
     width: 338px;
@@ -536,6 +548,10 @@ footer {
   }
   .content-section h2 {
     font-size: 33px;
+  }
+  .content-section {
+    flex: 1;
+    margin-left: 0px;
   }
   .about-us {
     padding: 21px;
@@ -552,6 +568,16 @@ footer {
   }
   .box-content {
     padding-top: 124px;
+  }
+  .container .content-section {
+    flex: 1;
+    margin-left: 0;
+  }
+  .mensaje-bienvenido .somos {
+    font-size: 19px;
+  }
+  .mensaje-bienvenido .somos1 {
+    font-size: 17px;
   }
 }
 

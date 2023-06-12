@@ -27,9 +27,12 @@
     }
   
     .img-section img{
-      width: 100%;
-      margin-bottom: 30px;
+      
+        width: 100%;
+        margin-bottom: 17px;
+        margin-top: 22px;
     }
+    
     
   }
   @media (max-width: 480px) {
@@ -94,7 +97,7 @@
     }
    
     .main-mensaje {
-      font-size: 38px;
+      font-size: 52px;
      
   }
   .somos {
@@ -108,7 +111,7 @@
   
 }
 .mensaje-bienvenido {
-  padding-top: 306px;
+  padding: 217px 6px;
   }
 
 .galeria_img img {
@@ -121,6 +124,10 @@
 }
 .content-section h2 {
   font-size: 33px;
+}
+.content-section {
+  flex: 1;
+  margin-left: 0px;
 }
 .about-us {
     padding: 21px;
@@ -139,5 +146,18 @@
 .box-content{
   padding-top: 124px;
 }
+.container .content-section {
+  flex: 1;
+  margin-left: 0;
+}
+.mensaje-bienvenido .somos {
+ 
+  font-size: 19px;
 
+}
+.mensaje-bienvenido .somos1 {
+
+  font-size: 17px;
+
+}
 }
