@@ -454,6 +454,12 @@ footer {
   .mensaje-bienvenido {
     padding: 381px 0px;
   }
+  .ubicacion .mapa-ubicacion {
+    width: 90%;
+  }
+  .ubicacion {
+    padding-top: 65px;
+  }
 }
 @media (max-width: 480px) {
   .form-main {
