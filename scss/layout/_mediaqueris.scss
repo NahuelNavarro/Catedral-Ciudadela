@@ -11,7 +11,7 @@
   @media (max-width: 768px) {
    
     .container .content-section h1 {
-      font-size: 43px;
+      font-size: 53px;
       margin-bottom: 0px;
       font-family: Seagram;
   }
@@ -20,7 +20,11 @@
 }
 
 .mensaje-bienvenido .somos {
-  font-size: 18px;
+  font-size: 21px;
+}
+
+.mensaje-bienvenido .somos1 {
+  font-size: 10px;
 }
     .container{
       flex-direction: column;
