@@ -424,7 +424,7 @@ footer {
 }
 @media (max-width: 768px) {
   .container .content-section h1 {
-    font-size: 53px;
+    font-size: 40px;
     margin-bottom: 0px;
     font-family: Seagram;
   }
@@ -468,12 +468,12 @@ footer {
   .footer-links a {
     color: #000000;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 10px;
   }
   .footer-links ul {
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 1%;
     text-decoration: none;
   }
   .eventos_img img {
