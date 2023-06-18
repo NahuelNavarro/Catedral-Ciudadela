@@ -225,7 +225,7 @@ footer {
 
 @font-face {
   font-family: "seagram";
-  src: url("/font/Seagram-tfb.ttf");
+  src: url(/font/seagram-tfb.ttf);
   font-style: normal;
 }
 .about-us {
