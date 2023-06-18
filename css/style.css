@@ -510,7 +510,10 @@ footer {
     gap: 3%;
   }
   .main-mensaje {
-    font-size: 54px;
+    font-size: 46px;
+  }
+  .mensaje-bienvenido .somos {
+    font-size: 15px;
   }
   .somos {
     font-size: 19px;
