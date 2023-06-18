@@ -423,9 +423,16 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  .logo {
-    cursor: pointer;
-    width: 22%;
+  .container .content-section h1 {
+    font-size: 43px;
+    margin-bottom: 0px;
+    font-family: Seagram;
+  }
+  .main-mensaje {
+    font-size: 40px;
+  }
+  .mensaje-bienvenido .somos {
+    font-size: 14px;
   }
   .container {
     flex-direction: column;
@@ -497,7 +504,7 @@ footer {
     gap: 3%;
   }
   .main-mensaje {
-    font-size: 52px;
+    font-size: 41px;
   }
   .somos {
     font-size: 13px;
@@ -543,10 +550,10 @@ footer {
     margin-left: 0;
   }
   .mensaje-bienvenido .somos {
-    font-size: 19px;
+    font-size: 14px;
   }
   .mensaje-bienvenido .somos1 {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
