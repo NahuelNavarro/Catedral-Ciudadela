@@ -243,7 +243,7 @@ footer {
   text-align: center;
 }
 .container .img-section img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   border-radius: 100%;
 }
