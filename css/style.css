@@ -505,7 +505,7 @@ footer {
     display: flex;
   }
   .footer-links ul {
-    display: block;
+    display: flex;
     justify-content: center;
     gap: 3%;
   }
