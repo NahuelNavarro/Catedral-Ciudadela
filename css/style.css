@@ -486,7 +486,7 @@ footer {
     text-decoration: none;
   }
   .eventos_img img {
-    width: 286px;
+    width: auto;
   }
   .logo {
     cursor: pointer;
@@ -534,7 +534,7 @@ footer {
     padding: 280px 0px;
   }
   .galeria_img img {
-    width: 338px;
+    width: auto;
     border-radius: 10px;
   }
   .container {
