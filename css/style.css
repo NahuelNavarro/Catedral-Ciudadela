@@ -504,10 +504,10 @@ footer {
     gap: 3%;
   }
   .main-mensaje {
-    font-size: 41px;
+    font-size: 54px;
   }
   .somos {
-    font-size: 13px;
+    font-size: 19px;
   }
   .somos1 {
     font-size: 14px;
@@ -548,12 +548,6 @@ footer {
   .container .content-section {
     flex: 1;
     margin-left: 0;
-  }
-  .mensaje-bienvenido .somos {
-    font-size: 14px;
-  }
-  .mensaje-bienvenido .somos1 {
-    font-size: 12px;
   }
 }
 
