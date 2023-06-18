@@ -432,7 +432,7 @@ footer {
     font-size: 40px;
   }
   .mensaje-bienvenido .somos {
-    font-size: 14px;
+    font-size: 12px;
   }
   .container {
     flex-direction: column;
@@ -550,10 +550,10 @@ footer {
     margin-left: 0;
   }
   .mensaje-bienvenido .somos {
-    font-size: 14px;
+    font-size: 12px;
   }
   .mensaje-bienvenido .somos1 {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
