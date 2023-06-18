@@ -429,10 +429,10 @@ footer {
     font-family: Seagram;
   }
   .main-mensaje {
-    font-size: 40px;
+    font-size: 55px;
   }
   .mensaje-bienvenido .somos {
-    font-size: 12px;
+    font-size: 18px;
   }
   .container {
     flex-direction: column;
@@ -447,6 +447,9 @@ footer {
     width: 100%;
     margin-bottom: 17px;
     margin-top: 22px;
+  }
+  .mensaje-bienvenido {
+    padding: 381px 0px;
   }
 }
 @media (max-width: 480px) {
