@@ -414,7 +414,7 @@ footer {
 }
 
 .eventos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(19, 19, 19, 0.842)), url(/img/Evento.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(19, 19, 19, 0.842)), url(/img/eventopok.jpg);
   display: flex;
   width: 100%;
   height: 100vh;
