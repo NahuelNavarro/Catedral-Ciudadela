@@ -216,7 +216,7 @@ footer {
   font-style: normal;
 }
 .about-us {
-  padding: 50px 117px;
+  padding: 50px;
 }
 
 .container {
@@ -464,6 +464,9 @@ footer {
   }
   .ubicacion-title {
     padding-top: 100px;
+  }
+  .about-us {
+    padding: 49px auto;
   }
   .container .content-section h1 {
     font-size: 40px;
