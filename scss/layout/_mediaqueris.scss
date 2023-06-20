@@ -165,7 +165,7 @@
 }
 .ubicacion {
 
-  padding: 33% 10%;
+  padding: 1% 0%;
 }
 .ubicacion p {
   padding: 2% 5%;
@@ -201,5 +201,16 @@
   
   color: antiquewhite;
  }
-
+ .ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  gap: 0px;
+  padding-bottom: 150px;}
+  .ubicacion-title{
+    padding-top: 100px;
+  }
+  
 }

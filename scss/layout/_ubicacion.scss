@@ -1,20 +1,29 @@
 .ubicacion {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+   
+    gap: 0px;
+    padding-bottom: 200px;
+    
     
       p {
-      padding: 2% 32%;
+     
+      text-align: justify;
      }
    
     .mapa-ubicacion {
-      width: 100%;
+      width: 40%;
       justify-content: center;
       display: flex;
       align-items: center;
+      
     }
+  }
+
+  .ubicacion-box{
+    width: 350px;
   }
   
 
