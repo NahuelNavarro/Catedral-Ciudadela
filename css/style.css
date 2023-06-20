@@ -356,6 +356,7 @@ footer {
   margin: 0px 2%;
   justify-content: center;
   gap: 10px;
+  padding-bottom: 75px;
 }
 
 .galeria_img img {
@@ -388,6 +389,10 @@ footer {
 
 .ubicacion-box {
   width: 350px;
+}
+
+.direccion-tittle {
+  padding-top: 35px;
 }
 
 .eventos_img {
