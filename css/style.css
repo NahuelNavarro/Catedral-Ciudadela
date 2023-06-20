@@ -552,9 +552,6 @@ footer {
   .main-mensaje {
     font-size: 46px;
   }
-  .mensaje-bienvenido .somos {
-    font-size: 15px;
-  }
   .somos {
     font-size: 19px;
   }
@@ -611,11 +608,14 @@ footer {
     padding: 0%;
   }
   .home-content p {
-    font-size: 8px;
+    font-size: 12px;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-bottom: 30px;
     color: antiquewhite;
+  }
+  .mensaje-bienvenido .home-content h2 {
+    font-size: 19px;
   }
   .ubicacion {
     display: flex;
