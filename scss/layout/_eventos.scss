@@ -13,18 +13,40 @@
     background-size: cover;
   }
 
- .eventos-main{
-  padding-top: 110px;
-  padding: 263px 0px; 
+ .eventos{
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(19, 19, 19, 0.842)),url(/img/Evento.jpg);
-  justify-content:space-between;
-  align-items: center;
+  display: flex;
   width: 100%;
   height: 100vh;
+  justify-content: center;
+  align-items: center;
   background-position: center;
   background-size: cover;
   box-sizing: border-box; 
 
+ }
+
+ .home-content{
+  max-width: 600px;
+  display: flex;
+ flex-direction: column;
+ }
+
+ .home-content h1{
+  font-size: 78px;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0,0,0,.3);
+  color: antiquewhite;
+  padding: 0%
+ }
+
+ .home-content p{
+  font-size: 16px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0,0,0,.3);
+  margin-bottom: 30px;
+  
+  color: antiquewhite;
  }
 
 
