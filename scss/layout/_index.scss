@@ -1,15 +1,4 @@
 
-.mensaje-bienvenido{
- 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgba(19, 19, 19, 0.842)),url(../img/fondoalivianado.jpg);
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-size: cover;
-  box-sizing: border-box; 
 
   .home-content h2{
     display: flex;
@@ -26,7 +15,7 @@
       
     }
  
-}
+
 .main-mensaje{
   font-size: 78px;
   color: $main-color;
@@ -39,7 +28,7 @@
 
 @font-face{
   font-family: 'seagram';
-  src: url(./font/seagram-tfb.ttf);
+  src: url(../font/seagram-tfb.ttf);
   font-style: normal;
 }
 
@@ -96,3 +85,19 @@
 }
 
 
+
+.video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  object-fit: cover;
+  
+}
+
+.video-back {
+ min-height: 100vh;
+ background-size: cover;
+}
