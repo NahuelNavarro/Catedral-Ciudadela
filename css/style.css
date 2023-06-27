@@ -625,8 +625,8 @@ footer {
     margin-bottom: 30px;
     color: antiquewhite;
   }
-   .home-content h2 {
-    font-size: 15px;
+  .mensaje-bienvenido .home-content h2 {
+    font-size: 14px;
   }
   .ubicacion {
     display: flex;
